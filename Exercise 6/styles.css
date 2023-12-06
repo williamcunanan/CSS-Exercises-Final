@@ -1,0 +1,21 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.grid-item {
+    background-color: #F7F5EB;
+    padding: 20px;
+    border-radius: 200px;
+    border: 3px solid #EAC7C7;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 30px;
+}  
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}

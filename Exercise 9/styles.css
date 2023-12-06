@@ -1,0 +1,22 @@
+.parent-box {
+    width: 500px;
+    height: 500px;
+    background-color: #A0C3D2;
+    padding: 20px;
+    margin: 20px;
+    margin: auto;
+    width: 50%; 
+  }
+
+  .child-box {
+    width: 450px;
+    height: 350px;
+    background-color: #EAE0DA;
+    padding: 18px;
+    margin: 18px;
+    margin: auto;
+    width: 50%;
+  }
+  body {
+    background-color: rgb(26, 23, 23);
+  }

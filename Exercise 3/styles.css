@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+  }
+  .box {
+    float:inline-start;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .one {
+    background-color: #EAC7C7;
+  }
+  .two {
+    background-color: #A0C3D2;
+  }
+  .three {
+    background-color: #F7F5EB;
+  }
+  .clear {
+    clear: both;
+  }
